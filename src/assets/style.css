@@ -1,0 +1,170 @@
+.login .van-cell{
+    width: 94vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 0.16rem;
+    margin-top: 0.2rem;
+}
+.register .van-cell{
+    width: 94vw;
+    margin: 0 auto;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 0.16rem;
+    margin-top: 0.1rem;
+}
+.register .van-button--primary{
+    border: none;
+    background: none;
+    color: #0499F6;
+}
+.register .van-button::before{
+    background-color: none;
+    border: none;
+}
+.register .van-field__button{
+    text-align: center;
+    width:0.6rem;
+}
+.hello .van-tabbar-item__icon{
+    
+    width: 0.24rem;
+  }
+  .hello .van-icon__image{
+      height: 0.2rem;
+      width: 0.3rem;
+  }
+  .hello .van-notice-bar__wrap{
+      margin-left: 0.1rem;
+  }
+  .hello .van-tabbar-item__icon img{
+      height: 0.24rem;
+      width: 0.24rem;
+  }
+  .qianbao .van-hairline--top-bottom::after, .van-hairline-unset--top-bottom::after{
+      border: none;
+  }
+  .qianbao .van-popup--top{
+      width: 17%;
+      margin-left: 72%;
+      margin-top: 3%;
+      background-color: #ECECEE;
+  }
+  .van-cell:not(:last-child)::after{
+      left: 0 !important;
+  }
+  .qianbao .van-dropdown-item__option{
+    background-color: #ECECEE;
+    text-align: center;
+    color: #2782FD;
+  }
+  .qianbao .van-ellipsis{
+      color: #2782FD;
+  }
+  .qianbao .van-dropdown-menu__item{
+      /* border: 1px solid #2782FD; */
+      border-radius: 0.02rem;
+      /* height: 0.3rem;
+      margin-top: 0.1rem; */
+  }
+  .qianbao .van-cell{
+      padding: 5px 1px;
+  }
+  .qianbao .van-dropdown-item__icon{
+      display: none;
+      
+  }
+  .qianbao .van-cell__value{
+      display: none;
+  }
+  .qianbao van-cell {
+      text-align: center;
+  }
+  .qianbao .van-dropdown-item{
+      top:280px !important
+  }
+  .dingdanxigqing .van-card{
+      background-color: #fff;
+      margin-top: 1px;
+  }
+  .dizhi .van-button--danger{
+    background-color: #0497F4;
+    border: 1px solid #0497F4
+  }
+  .di .van-card{
+    background-color: #fff;
+    margin-top: 1px;
+}
+.di .van-card__title{
+    font-size: 0.13rem;
+    color: #1A1A1A;
+    /* line-height: 0.2rem; */
+}
+.di .van-card__price{
+    color: #E01212;
+}
+.di .van-card__num{
+    color: #E01212;
+}
+.shopxigqing2 .van-stepper__minus{
+    margin-left: 0.15rem;
+    background: #0497F4;
+    border-radius: 50%;
+}
+.shopxigqing2  .van-stepper__plus{
+    background: #0497F4;
+    border-radius: 50%;
+}
+.shopxigqing2 .van-stepper__minus::after, .van-stepper__minus::before, .van-stepper__plus::after, .van-stepper__plus::before{
+    color: #fff;
+}
+.shopxigqing2  .van-stepper__input:read-only{
+    background: #fff;
+    font-size: 0.16rem;
+    color: #0497F4;
+}
+.helllo  .van-notice-bar__left-icon img{ 
+    height: 0.15rem;
+    width: 0.3rem;
+}
+/* .dizhi .van-field__error-message{
+    display: none;
+}  */
+
+.di .van-popup{
+    padding-top: 0.3rem;
+  
+} 
+.dingdanxigqing .van-popup{
+    padding-top: 0.3rem;
+  
+} 
+.helllo .van-notice-bar{
+    padding: 0 0.1rem;
+}
+.qianbao .van-list{
+    /* max-height:60vh; */
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    scrollbar-width: none; 
+  -ms-overflow-style: none;
+  border: none;
+
+  width: 100%;
+  /* background-color:yellow; */
+}
+.ming .van-uploader__input-wrapper{
+    width: 100%;
+}
+.ming .van-image{
+    width: 100%;
+    height: 1.3rem;
+}
+.ming .van-uploader__preview-image img{
+    margin-top: 0.1rem;
+    height:1.2rem;
+    width: auto;
+    margin: 0 auto;
+}
+.ming .van-uploader__preview{
+    margin: 0;
+}
